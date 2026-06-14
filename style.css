@@ -27,7 +27,7 @@ align-items:center;
 }
 
 .logo img{
-height:100px;
+height:250px;
 width:auto;
 }
 
@@ -82,7 +82,7 @@ cursor:pointer;
 }
 
 .hero-image img{
-max-width:700px;
+max-width:950px;
 width:100%;
 }
 
