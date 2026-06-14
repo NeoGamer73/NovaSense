@@ -1,1 +1,0 @@
-Sustituye los bloques Lite/Pro/Edu por tus PNG en la carpeta images.
