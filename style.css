@@ -27,7 +27,8 @@ align-items:center;
 }
 
 .logo img{
-height:50px;
+height:30px;
+width:auto;
 }
 
 nav ul{
@@ -47,7 +48,7 @@ background:linear-gradient(135deg,#021632,#003eb5);
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:60px;
+padding:40px 60px;
 color:white;
 }
 
@@ -81,7 +82,7 @@ cursor:pointer;
 }
 
 .hero-image img{
-max-width:700px;
+max-width:300px;
 width:100%;
 }
 
