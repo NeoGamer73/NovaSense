@@ -2,73 +2,109 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NovaSense</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <div class="topbar">
-<span>📞 +34 900 151 737</span>
-<span>✉ support@novasense.com</span>
-<select><option>ES</option><option>EN</option></select>
+    <span>📞 +34 900 151 737</span>
+    <span>✉ support@novasense.com</span>
+
+    <select>
+        <option>ES</option>
+        <option>EN</option>
+    </select>
 </div>
 
 <nav>
-<div class="logo">NovaSense</div>
-<ul><li>Inicio</li><li>Tienda</li><li>Soporte</li><li>Contacto</li></ul>
-<div id="cartBtn">🛒 <span id="count">0</span></div>
+    <div class="logo">
+        NovaSense
+    </div>
+
+    <ul>
+        <li>Inicio</li>
+        <li>Tienda</li>
+        <li>Soporte</li>
+        <li>Contacto</li>
+    </ul>
+
+    <div id="cartBtn">
+        🛒 <span id="count">0</span>
+    </div>
 </nav>
 
 <section class="hero">
-<h1>Tecnología que te conecta</h1>
-<p>Dispositivos NeuroDot para comunicación y aprendizaje.</p>
+    <h1>Tecnología que te conecta</h1>
+
+    <p>
+        Descubre la gama NeuroDot diseñada para mejorar la comunicación,
+        el aprendizaje y la accesibilidad.
+    </p>
 </section>
 
 <section class="products">
 
-<div class="card">
-<img src="images/neurodot-lite.png" class="product-img" alt="NeuroDot Lite">
-<h3>NeuroDot Lite</h3>
-<p class="price">199€</p>
-<button onclick="add('Lite')">Añadir al carrito</button>
-</div>
+    <div class="card">
+        <img src="images/neurodot-lite.png"
+             class="product-img"
+             alt="NeuroDot Lite">
 
-<div class="card">
-<img src="images/neurodot-pro.png" class="product-img" alt="NeuroDot Pro">
-<h3>NeuroDot Pro</h3>
-<p class="price">249€</p>
-<button onclick="add('Pro')">Añadir al carrito</button>
-</div>
+        <h3>NeuroDot Lite</h3>
 
-<div class="card">
-<span class="badge">NUEVO</span>
-<img src="images/neurodot-edu.png" class="product-img" alt="NeuroDot Edu">
-<h3>NeuroDot Edu</h3>
-<p class="price">99€</p>
-<button onclick="add('Edu')">Añadir al carrito</button>
-</div>
+        <p class="price">199€</p>
 
-</section>
+        <button onclick="add('Lite')">
+            Añadir al carrito
+        </button>
+    </div>
 
-<div class="card">
-<div class="img gold">Pro</div>
-<h3>NeuroDot Pro</h3>
-<p class="price">249€</p>
-<button onclick="add('Pro')">Añadir al carrito</button>
-</div>
+    <div class="card">
+        <img src="images/neurodot-pro.png"
+             class="product-img"
+             alt="NeuroDot Pro">
 
-<div class="card">
-<span class="badge">NUEVO</span>
-<div class="img blue">Edu</div>
-<h3>NeuroDot Edu</h3>
-<p class="price">99€</p>
-<button onclick="add('Edu')">Añadir al carrito</button>
-</div>
+        <h3>NeuroDot Pro</h3>
+
+        <p class="price">249€</p>
+
+        <button onclick="add('Pro')">
+            Añadir al carrito
+        </button>
+    </div>
+
+    <div class="card">
+
+        <span class="badge">
+            NUEVO
+        </span>
+
+        <img src="images/neurodot-edu.png"
+             class="product-img"
+             alt="NeuroDot Edu">
+
+        <h3>NeuroDot Edu</h3>
+
+        <p class="price">99€</p>
+
+        <button onclick="add('Edu')">
+            Añadir al carrito
+        </button>
+    </div>
+
 </section>
 
 <footer>
-<p>+34 900 151 737 · support@novasense.com</p>
+    <p>
+        📞 +34 900 151 737
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        ✉ support@novasense.com
+    </p>
 </footer>
+
 <script src="script.js"></script>
+
 </body>
 </html>
